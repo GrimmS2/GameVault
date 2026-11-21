@@ -1,0 +1,26 @@
+{
+  "jogos": [
+    {
+      "id": "1",
+      "nome": "Minecraft",
+      "genero": "Sandbox",
+      "plataforma": "PC",
+      "ano": 2011
+    },
+    {
+      "nome": "Stardew Valley",
+      "genero": "Fazenda",
+      "plataforma": "PC",
+      "ano": 2016,
+      "id": "3"
+    },
+    {
+      "nome": "Hollow Knight",
+      "genero": "Metroidvania",
+      "plataforma": "PC",
+      "ano": 2017,
+      "id": "GK6JguX2csI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
