@@ -108,28 +108,13 @@ function App() {
 
   return (
     <div className="container">
-      <aside className="sidebar">
-        <h1 className="logo">GameVault</h1>
-
-        <nav>
-          <a href="#" className="active">Biblioteca</a>
-          <a href="#">Cadastrar jogo</a>
-          <a href="#">Sobre</a>
-        </nav>
-      </aside>
 
       <main className="content">
         <header className="header">
           <div>
             <h2>Minha Biblioteca</h2>
-            <p>Gerencie sua coleção de jogos.</p>
           </div>
         </header>
-
-        <section className="welcome">
-          <h2>Bem-vindo ao GameVault!</h2>
-          <p>Todos os seus jogos organizados em um só lugar.</p>
-        </section>
 
         <section className="register">
           <h2>{jogoEditando !== null ? 'Editar jogo' : 'Cadastrar novo jogo'}</h2>
